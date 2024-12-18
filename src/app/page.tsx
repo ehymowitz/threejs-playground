@@ -1,80 +1,12 @@
-import ThreeScene from "@/components/threeScene";
+import Link from "next/link";
 
-export default function Home() {
+const home = () => {
   return (
-    <div className="min-h-screen font-white bg-transparent w-5 ">
-      <main>
-        <div className="absolute font-white bg-transparent">
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-          <p>TEST COPY TEXT</p>
-        </div>
-        <ThreeScene />
-      </main>
+    <div>
+      <Link href="/threeJS">ThreeJs</Link>
+      
     </div>
   );
-}
+};
+
+export default home;
