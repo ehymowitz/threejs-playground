@@ -3,8 +3,10 @@ import Link from "next/link";
 const home = () => {
   return (
     <div>
-      <Link href="/threeJS">ThreeJs</Link>
-      
+      <ul className="flex flex-col">
+        <Link href="/threeJS">ThreeJs</Link>
+        <Link href="/posts">Posts</Link>
+      </ul>
     </div>
   );
 };
