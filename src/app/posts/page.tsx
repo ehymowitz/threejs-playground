@@ -10,6 +10,12 @@ const Posts = async () => {
           <li key={post.id}>{post.title}</li>
         ))}
       </ul>
+
+      <form className="bg-white flex flex-col text-black">
+        <input type="text" name="title" className="border" />
+        <input type="text" name="content" className="border" />
+        <button type="submit">submit</button>
+      </form>
     </div>
   );
 };
