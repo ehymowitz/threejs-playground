@@ -11,6 +11,9 @@ export const createPost = async (formData: FormData) => {
         .replace(/\s+/g, "-")
         .toLowerCase(),
       content: formData.get("content") as string,
+      author: {
+        connect: { email: formData.get("email") as string },
+      },
     },
   });
 
