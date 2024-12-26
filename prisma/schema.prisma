@@ -23,6 +23,7 @@ model Post {
   slug      String   @unique
   content   String
   published Boolean? @default(false)
+  imageUrl  String?
   updatedAt DateTime @updatedAt
   createdAt DateTime @default(now())
   author    User     @relation(fields: [authorId], references: [id])
